@@ -35,7 +35,7 @@ void Shower::draw(QVector<QTransform> vector, QPolygon _poly, std::string _figur
 void Shower::paintEvent(QPaintEvent *e)
 {
     QPainter painter(this);
-    centerX = 550;
+    centerX = 450;
     centerY = 300;
     QPen linePen;
     linePen.setWidth(2);
